@@ -1,0 +1,11 @@
+{
+  "name": "College Library",
+  "short_name": "College Library",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#3F51B5",
+  "description": "College library navigation demo",
+  "orientation": "portrait-primary",
+  "prefer_related_applications": false
+}
