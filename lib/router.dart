@@ -9,7 +9,9 @@ GoRouter createRouter() {
     routes: [
       GoRoute(
         path: '/catalog',
-        builder: (context, state) => const CatalogScreen(),
+        builder: (context, state) => CatalogScreen(
+          genre: state.uri.queryParameters['genre'],
+        ),
         routes: [
           GoRoute(
             path: 'book/:bookId',
